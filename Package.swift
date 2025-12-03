@@ -28,7 +28,8 @@ let package = Package(
   ],
   dependencies: [
     .package(
-      url: "https://github.com/firebase/firebase-ios-sdk.git",
+      name: "firebase-ios-sdk",
+      url: "https://github.com/akaffenberger/firebase-ios-sdk-xcframeworks.git",
       "11.0.0" ..< "13.0.0"
     ),
   ],
